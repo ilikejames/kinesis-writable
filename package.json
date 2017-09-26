@@ -6,7 +6,7 @@
   "repository": {
     "url": "git://github.com/auth0/kinesis-writable.git"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec --timeout 5000",
     "cover": "NODE_ENV=test istanbul cover _mocha -- -R spec --timeout 5000"
